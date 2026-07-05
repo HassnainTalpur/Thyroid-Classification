@@ -2,7 +2,3 @@
 __pycache__/
 .DS_Store
 Thumbs.db
-
-# Temporary local folders
-notebook_versions/
-notebook_10_day_git_bundle/
