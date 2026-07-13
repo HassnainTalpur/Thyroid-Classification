@@ -20,3 +20,5 @@ __pycache__/
 *.pt
 *.pth
 *.ckpt
+
+!web_app/model/convnext_tiny_seed123_best.pt
