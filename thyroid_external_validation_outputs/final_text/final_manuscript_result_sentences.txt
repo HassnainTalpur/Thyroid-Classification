@@ -1,0 +1,22 @@
+FINAL MANUSCRIPT RESULT SENTENCES
+
+1. Primary external validation
+Across five seeds, ConvNeXt-Tiny achieved the highest median external ROC-AUC on TN3K/TNCD (0.790 [0.785–0.791]), with an AUC generalization gap of 0.151 relative to internal TN5000 testing.
+
+2. Statistical comparison
+ConvNeXt-Tiny showed the highest median external discrimination, but its advantage over DenseNet-121 was not statistically significant in representative-seed paired testing (AUC difference = 0.003; Holm-corrected Monte Carlo p = 0.689). Thus, DenseNet-121 demonstrated comparable external discrimination.
+
+3. Efficiency
+MobileNetV2 was the most computationally efficient model, whereas ConvNeXt-Tiny provided the highest external discrimination. DenseNet-121 offered a favorable performance-complexity trade-off, achieving external performance close to ConvNeXt-Tiny with substantially fewer parameters.
+
+4. Error analysis
+Error analysis showed that the locked threshold produced higher specificity than sensitivity for ConvNeXt-Tiny. This suggests a conservative operating point that better preserved benign classification at the expense of missed malignant cases.
+
+5. Ablation
+Ablation analysis showed that the locked TN5000 validation threshold produced a more specific operating point, whereas a fixed 0.5 threshold increased sensitivity at the cost of specificity. Temperature scaling generally improved calibration metrics without changing discrimination performance.
+
+6. Calibration
+For ConvNeXt-Tiny, temperature scaling improved Brier score by -0.028, ECE by -0.063, and NLL by -0.458.
+
+7. Recommended conclusion
+These findings support moderate cross-dataset generalization of TN5000-trained thyroid ultrasound classifiers to TN3K/TNCD, with ConvNeXt-Tiny achieving the strongest external discrimination and DenseNet-121 providing a competitive lower-complexity alternative.

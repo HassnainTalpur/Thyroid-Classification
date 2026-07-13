@@ -1,0 +1,6 @@
+best_model_name,best_display_name,comparator_model_name,comparator_display_name,n_paired_seeds,best_auc_median,comparator_auc_median,median_auc_diff_best_minus_comparator,wilcoxon_statistic,wilcoxon_p,wilcoxon_p_holm,wilcoxon_significant_holm_0_05
+convnext_tiny,ConvNeXt-Tiny,mobilenetv2_100,MobileNetV2,5,0.7901872626636693,0.7245790843568887,0.06560817830678067,0.0,0.0625,0.3125,False
+convnext_tiny,ConvNeXt-Tiny,swin_tiny_patch4_window7_224,Swin Transformer-Tiny,5,0.7901872626636693,0.7318018918126432,0.06185550403087137,1.0,0.125,0.3125,False
+convnext_tiny,ConvNeXt-Tiny,efficientnet_b0,EfficientNet-B0,5,0.7901872626636693,0.7510776743664094,0.03985603255105108,0.0,0.0625,0.3125,False
+convnext_tiny,ConvNeXt-Tiny,resnet50,ResNet-50,5,0.7901872626636693,0.7514617564969972,0.02844361667082962,0.0,0.0625,0.3125,False
+convnext_tiny,ConvNeXt-Tiny,densenet121,DenseNet-121,5,0.7901872626636693,0.7872796776750903,0.00024398808295611474,7.0,1.0,1.0,False
