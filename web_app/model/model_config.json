@@ -1,0 +1,48 @@
+{
+  "model_name": "convnext_tiny",
+  "display_name": "ConvNeXt-Tiny",
+  "selected_seed": 123,
+  "checkpoint_filename": "convnext_tiny_seed123_best.pt",
+  "selection_reason": "Highest TN5000 validation ROC-AUC among the five ConvNeXt-Tiny runs. This checkpoint also achieved the highest external TN3K/TNCD ROC-AUC among the ConvNeXt-Tiny seeds, although the deployment selection is justified by validation performance.",
+  "image_size": 224,
+  "imagenet_mean": [0.485, 0.456, 0.406],
+  "imagenet_std": [0.229, 0.224, 0.225],
+  "temperature": 2.5775904655456543,
+  "raw_probability_threshold": 0.9453125,
+  "calibrated_probability_threshold_equivalent": 0.7513148919051769,
+  "primary_decision_rule": "raw sigmoid score >= raw_probability_threshold",
+  "label_mapping": {
+    "0": "benign",
+    "1": "malignant"
+  },
+  "validation_metrics_tn5000": {
+    "roc_auc": 0.9622605363984674,
+    "accuracy": 0.8949579831932774,
+    "sensitivity": 0.8861111111111111,
+    "specificity": 0.9224137931034483,
+    "f1": 0.9273255813953488
+  },
+  "internal_test_metrics_tn5000": {
+    "roc_auc": 0.9432176124783129,
+    "pr_auc": 0.9734111115791964,
+    "f1": 0.8869969040247678,
+    "tn": 231,
+    "fp": 26,
+    "fn": 120,
+    "tp": 573
+  },
+  "external_metrics_tn3k_tncd_3493": {
+    "roc_auc": 0.7936573958435146,
+    "pr_auc": 0.712237846543155,
+    "accuracy": 0.7752648153449757,
+    "sensitivity": 0.5900826446280992,
+    "specificity": 0.8734121769601402,
+    "precision": 0.711864406779661,
+    "f1": 0.6452779032986896,
+    "tn": 1994,
+    "fp": 289,
+    "fn": 496,
+    "tp": 714
+  },
+  "warning": "Research prototype only. It must not be used as a standalone diagnosis or clinical decision system. External sensitivity at the locked operating threshold was approximately 59%."
+}

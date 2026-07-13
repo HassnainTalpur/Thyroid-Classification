@@ -1,0 +1,3 @@
+Place convnext_tiny_seed123_best.pt in this folder.
+The Streamlit UI and FastAPI backend both use this same checkpoint.
+We haven't put in the convnext_tiny because GitHub wouldn't allow hundreds of Mbs worth of file here. if you want it please reach out.

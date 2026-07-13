@@ -2,3 +2,21 @@
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# Python application files
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+
+# Large model checkpoints
+*.pt
+*.pth
+*.ckpt
