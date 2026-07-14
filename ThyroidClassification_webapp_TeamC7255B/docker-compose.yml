@@ -1,0 +1,10 @@
+services:
+  thyroid-classifier:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      FORCE_CPU: "1"
+      MAX_UPLOAD_BYTES: "10485760"
