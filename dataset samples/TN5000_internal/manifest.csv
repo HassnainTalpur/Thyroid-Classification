@@ -1,0 +1,6 @@
+filename,dataset,research_role,original_split,class_id,label,bbox_xmin,bbox_ymin,bbox_xmax,bbox_ymax
+004996.jpg,TN5000,internal development/evaluation sample,test,1,malignant,308,123,506,315
+004997.jpg,TN5000,internal development/evaluation sample,train,1,malignant,284,67,475,242
+004998.jpg,TN5000,internal development/evaluation sample,train,1,malignant,251,74,432,200
+004999.jpg,TN5000,internal development/evaluation sample,test,1,malignant,277,223,388,332
+005000.jpg,TN5000,internal development/evaluation sample,val,1,malignant,118,262,236,385
