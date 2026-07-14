@@ -1,5 +1,34 @@
 <div align="center">
 
+# Thyroid Ultrasound Classification Research & Web Application
+
+**Website is live at:** [https://thyroidclassification.streamlit.app](https://thyroidclassification.streamlit.app)
+
+**Research completed by:** Mir Hasnain Hyder — `2K23/CSM/75`  
+**Web application completed by:** Junaid Ahmed — `2K23/CSM/54`
+
+[**Research**](#part-1--research) · [**Web App**](#part-2--web-application) · [**Live Demo**](https://thyroidclassification.streamlit.app) · [**Manuscript**](./docs/Final_Manuscript.pdf) · [**Notebook**](./notebook.ipynb)
+
+</div>
+
+---
+
+## Project at a glance
+
+This repository has two connected parts:
+
+### [Part 1 — Research](#part-1--research)
+
+A controlled comparison of MobileNetV2, EfficientNet-B0, ResNet-50, DenseNet-121, ConvNeXt-Tiny, and Swin Transformer-Tiny using leakage-safe TN5000 data and independent external validation on TN3K/TNCD.
+
+### [Part 2 — Web Application](#part-2--web-application)
+
+A Streamlit application that deploys the selected ConvNeXt-Tiny checkpoint for research demonstration, including prediction scores, threshold information, Grad-CAM explanation, and internal-versus-external performance context.
+
+---
+
+# Part 1 — Research
+
 # Deep Learning for Ultrasound Thyroid Nodule Classification
 
 **Mir Hasnain Hyder¹**, **Mir Allahyar Khan Talpur²**, **Ramesh Kumar Ayyasamy²**,  
@@ -23,27 +52,8 @@ Hamid Ur Rehman — [hamidrehman@1utar.my](mailto:hamidrehman@1utar.my)
 
 A leakage-safe comparison of six deep-learning models, externally validated on an independent thyroid-ultrasound dataset and deployed as a Streamlit research application.
 
-[**Research**](#part-1--research) · [**Web App**](#part-2--web-application) · [**Live Demo**](https://thyroidclassification.streamlit.app) · [**Manuscript**](./docs/Final_Manuscript.pdf) · [**Notebook**](./notebook.ipynb)
-
-</div>
-
 ---
 
-## Project at a glance
-
-This repository has two connected parts:
-
-### [Part 1 — Research](#part-1--research)
-
-A controlled comparison of MobileNetV2, EfficientNet-B0, ResNet-50, DenseNet-121, ConvNeXt-Tiny, and Swin Transformer-Tiny using leakage-safe TN5000 data and independent external validation on TN3K/TNCD.
-
-### [Part 2 — Web Application](#part-2--web-application)
-
-A Streamlit application that deploys the selected ConvNeXt-Tiny checkpoint for research demonstration, including prediction scores, threshold information, Grad-CAM explanation, and internal-versus-external performance context.
-
----
-
-# Part 1 — Research
 
 ## Research question
 
