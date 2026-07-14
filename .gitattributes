@@ -1,1 +1,2 @@
 web_app/model/convnext_tiny_seed123_best.pt filter=lfs diff=lfs merge=lfs -text
+ThyroidClassification_webapp_TeamC7255B/model/convnext_tiny_seed123_best.pt filter=lfs diff=lfs merge=lfs -text
