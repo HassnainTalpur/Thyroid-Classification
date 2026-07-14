@@ -4,8 +4,13 @@
 
 **Website is live at:** [https://thyroidclassification.streamlit.app](https://thyroidclassification.streamlit.app)
 
-**Research completed by:** Mir Hasnain Hyder — `2K23/CSM/75`  
+**Research Paper completed by:** Mir Hasnain Hyder — `2K23/CSM/75`
+The AI research covered dataset auditing, preprocessing, transfer learning, training six deep-learning architectures across five seeds, threshold selection, calibration, internal testing, and independent external validation.
+
+
 **Web application completed by:** Junaid Ahmed — `2K23/CSM/54`
+The AI web application deploys the selected ConvNeXt-Tiny checkpoint, reproduces the research preprocessing and decision pipeline, and presents predictions with calibration and Grad-CAM explainability.
+
 
 [**Research**](#part-1--research) · [**Web App**](#part-2--web-application) · [**Live Demo**](https://thyroidclassification.streamlit.app) · [**Manuscript**](./docs/Final_Manuscript.pdf) · [**Notebook**](./notebook.ipynb)
 
@@ -27,7 +32,7 @@ A Streamlit application that deploys the selected ConvNeXt-Tiny checkpoint for r
 
 ---
 
-# Part 1 — Research
+# Part 1 — Research Paper
 
 # Deep Learning for Ultrasound Thyroid Nodule Classification
 
@@ -48,7 +53,7 @@ Hamid Ur Rehman — [hamidrehman@1utar.my](mailto:hamidrehman@1utar.my)
 
 **Submitted to:** [3rd International Conference on Computing and Data Analytics (ICCDA 2026)](https://iccda.utas.edu.om/)  
 **Venue:** Salalah, Oman  
-**Paper status:** Submitted manuscript
+**Paper status:** Submitted manuscript - waiting for acceptance
 
 A leakage-safe comparison of six deep-learning models, externally validated on an independent thyroid-ultrasound dataset and deployed as a Streamlit research application.
 
@@ -153,11 +158,29 @@ Future work should include patient-level evaluation, prospective multicenter val
 
 [**Open the deployed Streamlit app**](https://thyroidclassification.streamlit.app)
 
+### Upload and analysis interface
+
 <p align="center">
-  <img src="./docs/assets/webapp_screenshot.png" alt="Thyroid classification Streamlit application" width="1000">
+  <img src="./docs/assets/web_app_sc_1.png" alt="Thyroid ultrasound classifier upload and analysis interface" width="1000">
 </p>
 
-The web app turns the selected ConvNeXt-Tiny checkpoint into an inspectable research demonstration.
+The main screen shows model readiness, image upload, selected model metrics, and the option to generate a Grad-CAM explanation heatmap.
+
+### Prediction and Grad-CAM result
+
+<p align="center">
+  <img src="./docs/assets/web_app_sc_2.png" alt="Prediction result with Grad-CAM overlay and threshold comparison" width="1000">
+</p>
+
+The result screen displays the final class, calibrated malignancy score, locked-threshold comparison, ultrasound image, and Grad-CAM overlay.
+
+### Explanation and performance details
+
+<p align="center">
+  <img src="./docs/assets/web_app_sc_3.png" alt="Explanation factors, model performance, and technical details" width="1000">
+</p>
+
+The lower section summarizes the explanation factors, strongest model-response region, high-activation area, internal-versus-external performance, and technical inference details.
 
 ## What the app does
 
