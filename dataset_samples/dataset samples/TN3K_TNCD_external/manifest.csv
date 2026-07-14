@@ -1,0 +1,6 @@
+filename,dataset,research_role,patient_id,class_id,label
+600_007.jpg,TN3K/TNCD,independent external-validation sample,600,0,benign
+600_008.jpg,TN3K/TNCD,independent external-validation sample,600,0,benign
+600_009.jpg,TN3K/TNCD,independent external-validation sample,600,0,benign
+600_010.jpg,TN3K/TNCD,independent external-validation sample,600,0,benign
+600_011.jpg,TN3K/TNCD,independent external-validation sample,600,0,benign
